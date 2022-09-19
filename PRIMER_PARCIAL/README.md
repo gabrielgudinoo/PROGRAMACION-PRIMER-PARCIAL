@@ -54,6 +54,44 @@ if __name__ == "__main__":
 ~~~
 
  ### 3. MANEJO DE LAS F STRING EN PYTHON 3
-En esta sección se abordaron muchos temas demasiado interesantes y útiles a la hora de programar, hablo de <b>formatted string literals</b> ó <b>Formateo literal de cadenas</b> 
+En esta sección se abordaron muchos temas demasiado interesantes y útiles a la hora de programar, hablo de <b>formatted string literals</b> ó <b>formateo literal de cadenas</b> en la cual consiste en implementarlo a la sintaxis convirtiendola en más simple y fluida que hará más sencillo y práctico darle formato a cadenas de texto al momento de imprimirlas en pantalla.
+Los ejercicios que se llevaron acabo en clase fueron los siguientes:
+
+  - Mensajes desde ciertas funciones eviando cadenas como argumentos y regresandolas con el uso de las <b>f string</b>.
+  - Crear listas con datos previamente asignados para posterior a eso mostrarlos en pantalla con el uso de las <b>f string</b>.
+  - Ejercicio para imprimir información de alumnos con sus respectivas calificaciones y materias haciendo uso de las <b>f string</b>.
   
+Las <b>líneas de código</b> que destacan de dichos ejercicios son los siguientes:
   
+~~~
+  return f"Hola {Nombre}, tienes {Edad} años."
+  return f"Hola {Nombre}, tienes {anio_actual- anio_nacimiento} años."
+  return f"Divide y vencerás: Hola {Nombre}, tienes {CalcularEdad(anio_actual,anio_nacimiento)} años."
+  print(f"Alumno: {AlumnosCalificaciones['Nombre']}")
+  print(f"Alumno: {AlumnosCalificaciones['Nombre']}", f"con una calificación de: {AlumnosCalificaciones['Materia1']}")
+  print(f"{Encabezado[0]:^10}{Encabezado[1]:^10}{Encabezado[2]:^10} {Encabezado[3]:^10}")
+  print(f"{Estudiantes[a]:^10}{Calificaciones[a]:^10}{Calificaciones2[a]:^10}{Calificaciones3[a]:^10}")
+~~~
+  
+#### 4. ESTRUCTURAS DE DATOS EN PYTHON 3
+En esta sub unidad aprendimos como llevar a cabo la programación de:
+  - Listas
+  - Tuplas
+  - Diccionarios
+En donde se abarcaron las definiciones y las sintaxis correctas de cada una de ellas. Empezando con las <b>listas</b>, estas son estructuras de datos que pueden almacenar cualquier otro tipo de dato, inclusive una lista puede contener otra lista, además, la cantidad de elementos de una lista se puede modificar removiendo o añadiendo elementos. Para definir una lista se utilizan los corchetes, dentro de estos se colocan todos los elementos separados por comas:
+~~~
+Estudiantes = ["Gabo", "Paco", "Luis", "Lupita"]
+~~~
+  Las <b>tuplas</b> son secuencias de elementos similares a las listas, la diferencia principal es que las tuplas no pueden ser modificadas directamente, es decir, una tupla no dispone de los métodos como append o insert que modifican los elementos de una lista. Para definir una tupla, los elementos se separan con comas y se encierran entre paréntesis como en el siguiente ejemplo:
+~~~
+Alumnos = ("Alejandro", "Kevin", "Luis", "Marco")
+~~~
+ Por último, los diccionarios son estructuras que contienen una colección de elementos de la forma clave: valor separados por comas y encerrados entre llaves. Las claves deben ser objetos inmutables y los valores pueden ser de cualquier tipo. Necesariamente las claves deben ser únicas en cada diccionario, no así los valores.
+Vamos a definir un diccionario con el nombre y calificaciones de unos estudiantes:
+~~~
+AlumnosCalificaciones = {"Nombre": "Hugo", "Materia1": 10, "Materia2": 5}
+print(f"Diccionario \"Alumnos\": {AlumnosCalificaciones}")
+print(f"Alumno: {AlumnosCalificaciones['Nombre']}")
+print(f"Alumno: {AlumnosCalificaciones['Nombre']}", f"con una calificación de: {AlumnosCalificaciones['Materia1']}")
+~~~
+  Brevemente, esos fueron los temas vistos en la <b<Unidad I</b> de esta primera parcial de nuestra clase <b>Programación funcional</b> llevada acabo por el docente <b>Walter Alexander Mata Lopez</b> en nuestra carrera profesional de Ingenería en computación inteligente, por el presente alumno <b>Gabriel Alejandro Gudiño Méndez</b> del grupo 2do "D".
