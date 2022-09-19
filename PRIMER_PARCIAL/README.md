@@ -86,7 +86,7 @@ Estudiantes = ["Gabo", "Paco", "Luis", "Lupita"]
 ~~~
 Alumnos = ("Alejandro", "Kevin", "Luis", "Marco")
 ~~~
- Por último, los diccionarios son estructuras que contienen una colección de elementos de la forma clave: valor separados por comas y encerrados entre llaves. Las claves deben ser objetos inmutables y los valores pueden ser de cualquier tipo. Necesariamente las claves deben ser únicas en cada diccionario, no así los valores.
+  Por último, los <b>diccionarios</b> son estructuras que contienen una colección de elementos de la forma clave: valor separados por comas y encerrados entre llaves. Las claves deben ser objetos inmutables y los valores pueden ser de cualquier tipo. Necesariamente las claves deben ser únicas en cada diccionario, no así los valores.
 Vamos a definir un diccionario con el nombre y calificaciones de unos estudiantes:
 ~~~
 AlumnosCalificaciones = {"Nombre": "Hugo", "Materia1": 10, "Materia2": 5}
