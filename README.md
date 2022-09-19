@@ -6,4 +6,5 @@
   - LENGUJE DE PROGRAMACIÓN: <b>Python.</b><br>
   - NOMBRE DEL ALUMNO: <b>Gabriel Gudiño.</b><br>
   - NOMBRE DE LA DOCENTE: <b>Walter Alexander Mata Lopez</b><br>
-  - NOMBRE DE LA ASIGNATURA: <b>Programación funcional.</b>
+  - NOMBRE DE LA ASIGNATURA: <b>Programación funcional.</b><br>
+  - NOMBRE DE LA FACULTAD: <b>Ingenería Mecánica Eléctrica</b>
