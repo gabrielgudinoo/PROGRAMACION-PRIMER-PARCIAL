@@ -4,7 +4,7 @@
 <h3>AQUÍ VAS A ENCONTRAR LOS TEMAS Y CÓDIGOS VISTOS EN CLASES CON EL ING. WALTER MATA</h1>
 <h4>INFORMACIÓN:</h4>
   - LENGUJE DE PROGRAMACIÓN: <b>Python.</b><br>
-  - NOMBRE DEL ALUMNO: <b>Gabriel Gudiño.</b><br>
+  - NOMBRE DEL ALUMNO: <b>Gabriel Alejandro Gudiño Méndez.</b><br>
   - NOMBRE DE LA DOCENTE: <b>Walter Alexander Mata Lopez</b><br>
   - NOMBRE DE LA ASIGNATURA: <b>Programación funcional.</b><br>
-  - NOMBRE DE LA FACULTAD: <b>Ingenería Mecánica Eléctrica</b>
+  - NOMBRE DE LA FACULTAD: <b>Ingenería Mecánica Eléctrica.</b>
