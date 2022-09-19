@@ -29,3 +29,31 @@ if __name__ == "__main__":
     print(FuncionEdadUno("Gabo", 19))
     print(FuncionEdadDos(2022, 2003, "Gabo"))
 ~~~
+La pantalla de respuesta al ejercicio anterior es la siguiente:<br><br>
+![](https://i.imgur.com/KYAuiEC.png)
+  
+### 2. IMPORTACIONES DE ARCHIVOS EN PYTHON
+En esta sección voy a explicar que fue lo que aprendimos en este tema de importaciones de módulo. Básicamente aprendimos como utilizar importando un archivo externo en nuestro archivo main de nuestro proyecto. Existe un módulo en Python para obtener acceso al código en otro módulo haciendo uso del proceso de importación. La instrucción <b>import</b> es la forma más común de invocar este proceso de importación. A continuación se observan los códigos realizados en clase:
+~~~
+import SUMA as S
+import RESTAR as R
+import MULTIPLICAR as M
+import DIVIDIR as D
+import CUADRADO as C
+
+if __name__ == "__main__":
+
+    NumeroUno = 15
+    NumeroDos = 10
+    print("SUMA:",S.sumar(NumeroUno,NumeroDos))
+    print("RESTAR:",R.restar(NumeroUno,NumeroDos))
+    print("MULTIPLICAR:",M.Multiplicar(NumeroUno,NumeroDos))
+    print("DIVIDIR:",D.Dividir(NumeroUno,NumeroDos))
+    print("ELEVAR EL PRIMER NUMERO AL CUADRADO:",C.Cuadrado(NumeroUno))
+    print("ELEVAR EL SEGUNDO NUMERO AL CUADRADO:", C.Cuadrado(NumeroDos))  
+~~~
+
+ ### 3. MANEJO DE LAS F STRING EN PYTHON 3
+En esta sección se abordaron muchos temas demasiado interesantes y útiles a la hora de programar, hablo de <b>formatted string literals</b> ó <b>Formateo literal de cadenas</b> 
+  
+  
